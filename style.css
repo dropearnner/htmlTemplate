@@ -109,7 +109,7 @@ h6 {
 	left: 0;
 	top: 0;
 	width: 100%;
-	height: 100%;
+	height: 125%;
 	background: url(images/pattern.png);
 }
 .banner a.weblink {
@@ -124,16 +124,21 @@ h6 {
 	bottom: 0;
 	width: 100%;
 }
-.banner-text {
-	padding-right:80px;
-	margin:50px 0px 0px;
+
+.h2 white{
+	text-align: right;
 }
+
+
+
 .banner-text p {
 	margin:40px 0px;
 }
+
 .banner-text ul {
 	list-style: none;
 }
+
 .banner-text ul li {
 	display: inline-block;
 	margin: 0px 10px 10px 0px;
@@ -141,10 +146,12 @@ h6 {
 .banner-text ul li a {
 	display: block;
 }
+
 .banner-text ul li a img {
 	width: 150px;
 	border-radius: 7px;
 }
+
 .prelative {
 	position:relative
 }
@@ -223,7 +230,7 @@ h6 {
 	overflow: hidden;
 }
 .video-overlay {
-	background: linear-gradient(to left, rgba(122, 96, 255, 0.90), rgba(205, 159, 250, 0.90));
+	background:  linear-gradient(to left, #7a60ff, #cd9ffa);
 }
 .video-section h3 {
 	font-weight: 600;
@@ -303,23 +310,8 @@ h6 {
 	line-height: 50px;
 	border: 1px solid rgb(142, 30, 252);
 }
-.team {
-	background: #fafafa;
-	border-top: 1px solid #e4e4e4;
-}
-.team-detail {
-	margin-top:40px;
-}
-.team-detail img {
-	border-radius: 50%;
-	width: 70%;
-}
-.team-detail h4 {
-	color:rgb(142, 30, 252);
-	margin-top: 20px;
-	font-size: 17px;
-	margin-bottom: 0px;
-}
+
+/* HOW to WORK */
 .testimonial {
 	background: #7a60ff;
 	background: linear-gradient(to left, #7a60ff, #cd9ffa);
@@ -350,7 +342,7 @@ h6 {
 }
 .bx-wrapper {
 	border: none !important;
-	background: rgba(255, 255, 255, 0.81) !important;
+	background: linear-gradient(to left, #2900f7, #7533b7);
 	border-radius: 5px !important;
 	box-shadow:none !important;
 }
@@ -384,6 +376,79 @@ h6 {
 	font-size: 1.5em;
 	font-weight: 700;
 }
+/* END HOW TO WORK */
+
+
+/*  HOW TO EARN*/
+.earn {
+	background: white;
+	background:white;
+	padding:100px 0px;
+	position:relative;
+}
+.testimonial::before {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: url(images/pattern.png);
+}
+.bx-prev {
+	left: -90px !important;
+	background: url(images/arrow-left.png) no-repeat !important;
+	background-size: auto auto !important;
+	background-size: 100% 100% !important;
+	
+}
+.bx-next {
+	right: -90px !important;
+	background: url(images/arrow-right.png) no-repeat !important;
+	background-size: auto auto !important;
+	background-size: 100% 100% !important;
+	
+}
+.bx-wrapper {
+	border: none !important;
+	background: linear-gradient(to left, #7a60ff, #cd9ffa);
+	border-radius: 5px !important;
+	box-shadow:none !important;
+	background-color: #2388ed;
+}
+.slider-item {
+	padding:20px;
+}
+.slider .test-img img {
+	border: 12px solid black;
+	border-radius: 50%;
+	width: 100%;
+	height: auto;
+}
+.test-img {
+	float: left;
+	width: 20%;
+	margin-right:5%;
+}
+.test-text {
+	float: left;
+	width: 75%;
+}
+.slider .title {
+	display: block;
+	position: relative;
+	margin: 0 0 20px;
+	font-size: 1.125em;
+	line-height: 1.25;
+}
+.slider .title span {
+	display: block;
+	font-size: 1.5em;
+	font-weight: 700;
+}
+/* END HOW TO EARN */
+
 .faq {
 	background: #fafafa;
 	border-bottom: 1px solid #e4e4e4;
@@ -601,3 +666,256 @@ h3 {
 	font-size: 10px;
 }
 }
+
+
+/*footer*/
+ul {
+	margin: 0px;
+	padding: 0px;
+  }
+  .footer-section {
+	background: linear-gradient(to left, #7a60ff, #cd9ffa);
+  position: relative;
+  }
+  .footer-cta {
+	border-bottom: 1px solid #373636;
+  }
+  .single-cta i {
+  color:black;
+  font-size: 30px;
+  float: left;
+  margin-top: 8px;
+  }
+  .cta-text {
+  padding-left: 15px;
+  display: inline-block;
+  }
+  .cta-text h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
+  }
+  .cta-text span {
+  color: #757575;
+  font-size: 15px;
+  }
+  .footer-content {
+  position: relative;
+  z-index: 2;
+  }
+  .footer-pattern img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 330px;
+  background-size: cover;
+  background-position: 100% 100%;
+  }
+  .footer-logo {
+  margin-bottom: 30px;
+  }
+  .footer-logo img {
+	max-width: 200px;
+  }
+  .footer-text p {
+  margin-bottom: 14px;
+  font-size: 14px;
+	  color: #7e7e7e;
+  line-height: 28px;
+  }
+  .footer-social-icon span {
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+  }
+  .footer-social-icon a {
+  color: #fff;
+  font-size: 16px;
+  margin-right: 15px;
+  }
+  .footer-social-icon i {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+  }
+  .facebook-bg{
+  background: #3B5998;
+  }
+  .twitter-bg{
+  background: #55ACEE;
+  }
+  .google-bg{
+  background: #DD4B39;
+  }
+  .footer-widget-heading h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+  }
+  .footer-widget-heading h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background: black;
+  }
+  .footer-widget ul li {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  margin-bottom: 12px;
+  }
+  .footer-widget ul li a:hover{
+  color: #ff5e14;
+  }
+  .footer-widget ul li a {
+  color: #878787;
+  text-transform: capitalize;
+  }
+  .subscribe-form {
+  position: relative;
+  overflow: hidden;
+  }
+  .subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+  background: #2E2E2E;
+  border: 1px solid #2E2E2E;
+  color: #fff;
+  }
+  .subscribe-form button {
+	position: absolute;
+	right: 0;
+	background: #ff5e14;
+	padding: 13px 20px;
+	border: 1px solid #ff5e14;
+	top: 0;
+  }
+  .subscribe-form button i {
+  color: #fff;
+  font-size: 22px;
+  transform: rotate(-6deg);
+  }
+  .copyright-area{
+  background: #202020;
+  padding: 25px 0;
+  }
+  .copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #878787;
+  }
+  .copyright-text p a{
+  color: #ff5e14;
+  }
+  .footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+  }
+  .footer-menu li:hover a{
+  color: #ff5e14;
+  }
+  .footer-menu li a {
+  font-size: 14px;
+  color: #878787;
+  }
+  
+
+  /* how to earn css*/
+  .testimonial {
+	background: #7a60ff;
+	background: linear-gradient(to left, #7a60ff, #cd9ffa);
+	padding:100px 0px;
+	position:relative;
+}
+.testimonial::before {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: url(images/pattern.png);
+}
+
+/* log in sign up button*/
+/* Button Hover*/
+
+
+
+.glow-on-hover {
+    width: 220px;
+    height: 50px; 
+    border: none;
+    outline: none;
+    color: #fff;
+    background:#111;
+    cursor:pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color:#111
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:rgb(74, 215, 228);
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+/* END log in sign up button*/
+
+
+/* Start language button*/
+
